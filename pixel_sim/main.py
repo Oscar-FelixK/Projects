@@ -3,7 +3,7 @@ import numpy as np
 
 ti.init(arch=ti.gpu)  # fallback to CPU if GPU not available
 rng = np.random.default_rng()
-RES = 540     # logical resolution (bigger pixels)
+RES = 500     # logical resolution (bigger pixels)
 WINDOW_RES = 1012 # window size
 BRUSH_RADIUS = 10
 current_material = 1 # 0 air, 1 sand, 2 stone
